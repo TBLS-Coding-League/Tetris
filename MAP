@@ -1,0 +1,17 @@
+#include <map>
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int my_map [5][5] = {{0, 0, 0, 0, 0}.{0, 0, 0, 0, 0}};
+
+    for (int row=0; row<5; row++) {
+
+            for (int column=0; column<5; column ++)
+                cout << my_map [row][column] << " ";
+    }
+    cout << endl;
+}
